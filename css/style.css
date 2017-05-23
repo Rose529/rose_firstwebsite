@@ -2,15 +2,39 @@ body{
 	background-color: turquoise;
 }
 
+nav ul {
+	list-style: none;
+	padding: 0;
+
+}
+
+nav li {
+	float: left;
+	text-align: center;
+	width: 33.33%;
+	
+}
+
+nav a {
+	color: white;
+	text-decoration: none; 
+	
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
 h1 {
 	text-align: center;
 	font-family: Impact, sans-serif;
-	font-size: 40px;
+	font-size: 70px;
+	line-height: 94px;
 	color: darkgrey;
 }
 
 p, li {
 	font-family: times;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 24px;
 }
